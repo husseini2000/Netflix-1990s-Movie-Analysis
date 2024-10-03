@@ -1,13 +1,14 @@
-# Netflix 1990s Movie Analysis
+# Netflix 1990s Movies Analysis
 
-## Project Overview
-This project focuses on analyzing movies released on Netflix during the 1990s. Using Python and key data analysis libraries, the project explores insights into movie durations, identifies short action movies, and visualizes trends in movie release patterns. The aim is to understand content trends in duration and genre during this decade.
+## Overview
+
+This project focuses on performing an exploratory data analysis (EDA) on Netflix movie data, specifically for movies released during the 1990s (1990-1999). The goal of this analysis is to uncover insights into movie durations, genre distribution, and trends related to short movies (under 90 minutes) during that decade. Various visualizations are created to help understand the data better.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
 - [Objectives](#objectives)
-- [Methods and Analysis](#methods-and-analysis)
+- [Steps of Analysis](#steps-of-analysis)
 - [Visualizations](#visualizations)
 - [Results](#results)
 - [Challenges Faced](#challenges-faced)
@@ -30,25 +31,36 @@ The dataset used in this project includes Netflix content from a range of releas
 - `duration`: The runtime of the movie in minutes.
 - `genre`: Genre of the movie (Action, Comedy, Drama, etc.).
 - `description`: Short description or synopsis of the movie.
-
+  
 ## Objectives
-The key objectives of this analysis are:
-- To identify the most frequent movie duration for films released in the 1990s.
-- To count the number of action movies lasting less than 90 minutes.
-- To visualize key patterns, such as movie duration distribution and genre breakdown for short action movies.
 
-## Methods and Analysis
-The analysis involved the following steps:
-1. **Data Filtering**: Filtering the dataset to extract only movies released between 1990 and 1999.
-2. **Data Cleaning**: Ensuring the `duration` column is converted to a numeric format, as some entries may contain non-numeric values.
-3. **Identifying Frequent Duration**: Using the mode of the `duration` column to find the most frequent movie length.
-4. **Counting Short Action Movies**: Defining short movies as those with a runtime of less than 90 minutes and counting how many of these belong to the "Action" genre.
-5. **Visualization**: Plotting visual insights such as the distribution of movie durations and genre distribution for short action movies.
+### Key Questions Answered:
+1. **What was the most frequent movie duration in the 1990s?**
+2. **How many short action movies (under 90 minutes) were released in the 1990s?**
+3. **How are short action movies distributed across different genres?**
+4. **What is the yearly release trend of short movies in the 1990s?**
+
+## Steps of Analysis
+
+1. **Data Loading**: Load the dataset and filter movies that were released between 1990 and 1999.
+   
+2. **Analysis & Visualizations**:
+   - **Most Frequent Movie Duration**: Identified the most common movie duration using mode.
+   - **Distribution of Movie Durations**: Visualized the distribution of movie durations using a histogram.
+   - **Number of Short Action Movies**: Counted the short action movies (less than 90 minutes) released in the 1990s.
+   - **Genre Distribution of Short Action Movies**: Displayed a pie chart showing how short action movies are distributed across different genres.
+   - **Yearly Release of Short Movies**: Created a bar chart showing the number of short movies (under 90 minutes) released each year in the 1990s.
 
 ## Visualizations
-1. **Distribution of Movie Durations**: A histogram that shows the frequency of different movie durations for 1990s films, highlighting the most common duration.
-2. **Genre Distribution of Short Action Movies**: A pie chart that shows how short action movies are distributed across different genres.
-3. **Year-wise Release of Short Movies**: A bar chart that displays how short movies (under 90 minutes) were released each year during the 1990s.
+
+### 1. **Distribution of Movie Durations**
+   A histogram showing the frequency of different movie durations for 1990s films, with the most common duration highlighted.
+
+### 2. **Genre Distribution of Short Action Movies**
+   A pie chart displaying the distribution of short action movies across different genres.
+
+### 3. **Yearly Release of Short Movies**
+   A bar chart showing the number of short movies (under 90 minutes) released each year during the 1990s.
 
 ## Results
 - **Most Frequent Movie Duration**: The most frequent movie duration in the 1990s was approximately 94 minutes.
