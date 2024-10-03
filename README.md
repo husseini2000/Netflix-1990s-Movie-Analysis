@@ -83,12 +83,12 @@ The dataset used in this project includes Netflix content from a range of releas
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/husseini2000/yourrepository.git
+    git clone https://github.com/husseini2000/Netflix-1990s-Movie-Analysis.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd yourrepository
+    cd Netflix-1990s-Movie-Analysis.git
     ```
 
 3. Install the required libraries:
