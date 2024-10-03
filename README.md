@@ -1,9 +1,7 @@
-# Create an enhanced README.md file for the Netflix 1990s Movie Analysis project
-readme_content = """
 # Netflix 1990s Movie Analysis
 
 ## Project Overview
-This project focuses on analyzing movies released on Netflix during the 1990s. Using Python and key data analysis libraries, the project explores insights into movie durations, identifies short action movies, and visualizes trends in movie release patterns. The aim is to understand content trends in terms of duration and genre during this decade.
+This project focuses on analyzing movies released on Netflix during the 1990s. Using Python and key data analysis libraries, the project explores insights into movie durations, identifies short action movies, and visualizes trends in movie release patterns. The aim is to understand content trends in duration and genre during this decade.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -27,8 +25,8 @@ The dataset used in this project includes Netflix content from a range of releas
 - `title`: The title of the movie.
 - `director`: Name of the director.
 - `cast`: List of the main cast members.
-- `country`: Country where the movie was produced.
-- `release_year`: Year the movie was released.
+- `country`: The country where the movie was produced.
+- `release_year`: The year the movie was released.
 - `duration`: The runtime of the movie in minutes.
 - `genre`: Genre of the movie (Action, Comedy, Drama, etc.).
 - `description`: Short description or synopsis of the movie.
@@ -36,13 +34,13 @@ The dataset used in this project includes Netflix content from a range of releas
 ## Objectives
 The key objectives of this analysis are:
 - To identify the most frequent movie duration for films released in the 1990s.
-- To count the number of action movies with a duration less than 90 minutes.
+- To count the number of action movies lasting less than 90 minutes.
 - To visualize key patterns, such as movie duration distribution and genre breakdown for short action movies.
 
 ## Methods and Analysis
 The analysis involved the following steps:
 1. **Data Filtering**: Filtering the dataset to extract only movies released between 1990 and 1999.
-2. **Data Cleaning**: Ensuring the `duration` column is converted to numeric format, as some entries may contain non-numeric values.
+2. **Data Cleaning**: Ensuring the `duration` column is converted to a numeric format, as some entries may contain non-numeric values.
 3. **Identifying Frequent Duration**: Using the mode of the `duration` column to find the most frequent movie length.
 4. **Counting Short Action Movies**: Defining short movies as those with a runtime of less than 90 minutes and counting how many of these belong to the "Action" genre.
 5. **Visualization**: Plotting visual insights such as the distribution of movie durations and genre distribution for short action movies.
@@ -54,8 +52,8 @@ The analysis involved the following steps:
 
 ## Results
 - **Most Frequent Movie Duration**: The most frequent movie duration in the 1990s was approximately 94 minutes.
-- **Short Action Movies**: There were 7 action movies with a runtime less than 90 minutes.
-- The distribution of movie durations shows that most films tend to be longer than 90 minutes, but a significant portion falls within the short-movie category.
+- **Short Action Movies**: There were 7 action movies with a runtime of less than 90 minutes.
+- The distribution of movie durations shows that most films are longer than 90 minutes, but a significant portion falls within the short-movie category.
 - Action films with a duration under 90 minutes were mostly categorized into other overlapping genres such as comedy or thriller.
 
 ## Challenges Faced
@@ -79,5 +77,5 @@ To run this project locally, follow these steps:
 
 1. **Install Required Libraries**:
    Install the necessary Python libraries by running:
-   ```bash
+   bash
    pip install pandas matplotlib seaborn
