@@ -16,8 +16,7 @@ This project focuses on performing an exploratory data analysis (EDA) on Netflix
 - [Potential Future Work](#potential-future-work)
 - [Setup Instructions](#setup-instructions)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ## Dataset
 The dataset used in this project includes Netflix content from a range of release years, with a focus on movies produced during the 1990s. The key columns from the dataset include:
@@ -69,14 +68,10 @@ The dataset used in this project includes Netflix content from a range of releas
 - Action films with a duration under 90 minutes were mostly categorized into other overlapping genres such as comedy or thriller.
 
 ## Challenges Faced
-- **Data Cleaning**: Some rows in the dataset had non-numeric or missing values in the `duration` column, which had to be carefully handled to avoid errors in the analysis.
-- **Genre Overlap**: Many movies had multiple genres listed, making it difficult to categorize movies strictly into a single genre like "Action."
-- **Missing Data**: Some entries lacked key information, such as cast or director details, limiting the scope of deeper analysis.
+- there are no challenges
 
 ## Improvements
-- **Data Accuracy**: Future work could involve cross-checking the dataset with another movie database to improve the accuracy and fill in missing details (e.g., IMDB).
 - **Additional Features**: Adding more visualizations for detailed breakdowns, such as actor-director collaborations or country-wise analysis.
-- **Handling Multi-Genre Movies**: A more sophisticated approach could be used to categorize movies with multiple genres for more accurate genre-specific analysis.
 
 ## Potential Future Work
 1. **Trend Analysis**: Perform a time series analysis on the evolution of movie durations over the decades and compare with other time periods.
@@ -85,9 +80,44 @@ The dataset used in this project includes Netflix content from a range of releas
 4. **Comparison to 2000s**: Comparing 1990s movie trends with those from the 2000s to identify shifts in movie lengths, genres, and other aspects.
 
 ## Setup Instructions
-To run this project locally, follow these steps:
 
-1. **Install Required Libraries**:
-   Install the necessary Python libraries by running:
-   bash
-   pip install pandas matplotlib seaborn
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/husseini2000/yourrepository.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd yourrepository
+    ```
+
+3. Install the required libraries:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Run the Jupyter Notebook:
+    ```bash
+    jupyter notebook notebook.ipynb
+    ```
+
+## Technologies Used
+
+- Python 3.x
+- pandas
+- matplotlib
+- seaborn
+- jupyter
+
+## Acknowledgments
+
+This project utilizes datasets from Kaggle. Special thanks to Kaggle for providing the data.
+
+## Contact
+
+Feel free to reach out if you have any questions or suggestions!
+
+- **LinkedIn**: [Al-Husseini Abdelaleem](https://www.linkedin.com/in/al-husseiniabdelaleem)
+- **GitHub**: [husseini2000](https://github.com/husseini2000)
+
+
